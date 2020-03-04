@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="metrics">
+        <item>Select metric</item>
+        <item>Length</item>
+        <item>Mass</item>
+        <item>Volume</item>
+        <item>Temperature</item>
+        <item>Area</item>
+        <item>Velocity</item>
+        <item>Energy</item>
+        <item>Power</item>
+        <item>Pressure</item>
+        <item>Data</item>
+    </string-array>
+
+    <string-array name="nothing">
+        <item>Select above</item>
+    </string-array>
+
+    <string-array name="length">
+        <item>Inches</item>
+        <item>Centimetres</item>
+        <item>Feet</item>
+        <item>Metres</item>
+        <item>Miles</item>
+        <item>Kilometres</item>
+        <item>Yards</item>
+    </string-array>
+    
+    <string-array name="mass">
+        <item>Kilograms</item>
+        <item>Pounds</item>
+        <item>Grams</item>
+        <item>Ounces</item>
+        <item>US Short Ton</item>
+        <item>Tons</item>
+        <item>Tonnes</item>
+    </string-array>
+
+    <string-array name="volume">
+        <item>Litre</item>
+        <item>Millilitre</item>
+        <item>Gallon</item>
+        <item>Quarts</item>
+        <item>Pint</item>
+        <item>US Pint</item>
+        <item>US Quarts</item>
+        <item>US Gallon</item>
+        <item>Fluid Ounces</item>
+        <item>Bushel</item>
+    </string-array>
+
+    <string-array name="temperature">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+    </string-array>
+
+    <string-array name="area">
+        <item>Square Inches</item>
+        <item>Square Centimetres</item>
+        <item>Square Feet</item>
+        <item>Square Metres</item>
+        <item>Square Yards</item>
+        <item>Square Kilometres</item>
+        <item>Square Miles</item>
+        <item>Hectares</item>
+        <item>Acres</item>
+    </string-array>
+
+    <string-array name="velocity">
+        <item>Kilometres per Hour</item>
+        <item>Miles per Hour</item>
+        <item>Knots</item>
+    </string-array>
+
+    <string-array name="energy">
+        <item>Kilojoules</item>
+        <item>British Thermal Unit</item>
+        <item>Food Calories</item>
+    </string-array>
+
+    <string-array name="power">
+        <item>Horsepower</item>
+        <item>Kilowatt</item>
+    </string-array>
+
+    <string-array name="pressure">
+        <item>Atmospheres</item>
+        <item>Bars</item>
+        <item>Millimeters of Mercury</item>
+        <item>Kilopascals</item>
+        <item>Pounds per square inch</item>
+    </string-array>
+
+    <string-array name="data">
+        <item>Bytes</item>
+        <item>Kilobytes</item>
+        <item>Megabytes</item>
+        <item>Gigabytes</item>
+        <item>Terabytes</item>
+        <item>Petabytes</item>
+        <item>Exabytes</item>
+        <item>Zetabytes</item>
+        <item>Yotabytes</item>
+    </string-array>
+
+</resources>
