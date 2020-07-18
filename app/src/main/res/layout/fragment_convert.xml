@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/activity_to_do"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/side_nav_bar"
     app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
     <com.google.android.material.card.MaterialCardView
@@ -13,12 +13,12 @@
         android:layout_marginStart="0dp"
         android:layout_marginTop="0dp"
         android:layout_marginEnd="0dp"
-        android:layout_marginBottom="0dp"
+        android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:contentPadding="8dp"
+        app:contentPadding="4dp"
         app:cardUseCompatPadding="true"
         app:cardElevation="4dp"
         app:cardCornerRadius="2dp">
@@ -30,7 +30,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="4dp"
                 android:orientation="vertical">
 
                 <Spinner
@@ -38,21 +37,21 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
-                    android:layout_marginTop="16dp"
+                    android:layout_marginTop="8dp"
                     android:layout_marginEnd="8dp"
-                    android:layout_marginBottom="16dp"
+                    android:layout_marginBottom="8dp"
                     android:layout_gravity="center"
                     android:entries="@array/metrics"
                     android:paddingStart="8dp"
-                    android:paddingTop="16dp"
+                    android:paddingTop="8dp"
                     android:paddingEnd="8dp"
-                    android:paddingBottom="24dp"/>
+                    android:paddingBottom="16dp"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
-                    android:layout_marginTop="16dp"
+                    android:layout_marginTop="8dp"
                     android:layout_marginEnd="8dp"
                     android:layout_marginBottom="16dp"
                     android:baselineAligned="false"
@@ -84,7 +83,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
-                    android:layout_marginTop="16dp"
+                    android:layout_marginTop="8dp"
                     android:layout_marginEnd="8dp"
                     android:layout_marginBottom="16dp"
                     android:baselineAligned="false"
@@ -95,9 +94,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:gravity="center_vertical|start"
+                        android:gravity="center_vertical"
                         android:text="@string/convert_to"
-                        android:textAlignment="textStart"
                         android:textAppearance="?android:textAppearanceSmall"
                         android:textColor="#00f"
                         android:layout_margin="8dp"/>
@@ -107,7 +105,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:gravity="center_vertical|end"
+                        android:gravity="center_vertical"
                         android:layout_margin="8dp"/>
 
                 </LinearLayout>
@@ -152,7 +150,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
-                    android:layout_marginTop="16dp"
+                    android:layout_marginTop="8dp"
                     android:layout_marginEnd="8dp"
                     android:layout_marginBottom="16dp"
                     android:gravity="center"
@@ -166,7 +164,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
-                    android:layout_marginTop="16dp"
+                    android:layout_marginTop="8dp"
                     android:layout_marginEnd="8dp"
                     android:layout_marginBottom="16dp"
                     android:layout_gravity="center_horizontal"

@@ -100,27 +100,27 @@
                     android:textAlignment="textStart"
                     android:textAppearance="?android:textAppearanceMedium" />
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="4dp"
-                    android:layout_marginStart="4dp"
-                    android:layout_marginEnd="4dp"
-                    android:text="@string/credits"
-                    android:textStyle="bold"
-                    android:textAlignment="viewStart"
-                    android:textColor="#FFFFFF"
-                    android:textAppearance="?android:textAppearanceLarge"/>
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="4dp"-->
+<!--                    android:layout_marginStart="4dp"-->
+<!--                    android:layout_marginEnd="4dp"-->
+<!--                    android:text="@string/credits"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textAlignment="viewStart"-->
+<!--                    android:textColor="#FFFFFF"-->
+<!--                    android:textAppearance="?android:textAppearanceLarge"/>-->
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="4dp"
-                    android:layout_marginEnd="4dp"
-                    android:text="@string/cred_content"
-                    android:textColor="#FFFFFF"
-                    android:textAlignment="textStart"
-                    android:textAppearance="?android:textAppearanceMedium"/>
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="4dp"-->
+<!--                    android:layout_marginEnd="4dp"-->
+<!--                    android:text="@string/cred_content"-->
+<!--                    android:textColor="#FFFFFF"-->
+<!--                    android:textAlignment="textStart"-->
+<!--                    android:textAppearance="?android:textAppearanceMedium"/>-->
 
                 <TextView
                     android:layout_width="match_parent"
@@ -148,9 +148,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="4dp"
+                    android:layout_marginEnd="4dp"
                     android:layout_marginTop="4dp"
                     android:layout_marginBottom="8dp"
-                    android:layout_gravity="center_horizontal"
+                    android:layout_gravity="center"
                     android:paddingStart="4dp"
                     android:paddingEnd="4dp"
                     android:baselineAligned="false"
@@ -160,7 +161,7 @@
                         android:id="@+id/chat_whatsapp"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:layout_marginEnd="4dp"
+                        android:layout_margin="4dp"
                         android:padding="4dp"
                         android:clickable="true"
                         android:focusable="true"
@@ -172,19 +173,19 @@
                         android:id="@+id/chat_instagram"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:layout_marginEnd="4dp"
+                        android:layout_margin="4dp"
                         android:padding="4dp"
                         android:clickable="true"
                         android:focusable="true"
                         android:onClick="chatIntent"
-                        android:src="@drawable/facebook"
+                        android:src="@drawable/instagram"
                         android:contentDescription="@string/instagram" />
 
                     <ImageView
                         android:id="@+id/chat_facebook"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:layout_marginEnd="4dp"
+                        android:layout_margin="4dp"
                         android:padding="4dp"
                         android:clickable="true"
                         android:focusable="true"
@@ -196,37 +197,25 @@
                         android:id="@+id/chat_phone"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:layout_marginEnd="4dp"
+                        android:layout_margin="4dp"
                         android:padding="4dp"
                         android:clickable="true"
                         android:focusable="true"
                         android:onClick="chatIntent"
-                        android:src="@drawable/facebook"
+                        android:src="@drawable/call"
                         android:contentDescription="@string/phone" />
 
                     <ImageView
                         android:id="@+id/chat_email"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:layout_marginEnd="4dp"
+                        android:layout_margin="4dp"
                         android:padding="4dp"
                         android:clickable="true"
                         android:focusable="true"
                         android:onClick="chatIntent"
-                        android:src="@drawable/facebook"
+                        android:src="@drawable/email"
                         android:contentDescription="@string/email" />
-
-                    <ImageView
-                        android:id="@+id/chat_website"
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_marginEnd="4dp"
-                        android:padding="4dp"
-                        android:clickable="true"
-                        android:focusable="true"
-                        android:onClick="chatIntent"
-                        android:src="@drawable/facebook"
-                        android:contentDescription="@string/website" />
 
                 </LinearLayout>
 

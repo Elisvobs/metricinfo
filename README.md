@@ -18,8 +18,10 @@
 - Includes information of various items such as clothing sizes, tyre pressure, symbols of metric unit etc 
 
 ## Screenshot
-<img src="" width="300"/>
-<img src="" width="300"/>
+<img src="screenshots/home.jpg" width="300"/>
+<img src="screenshots/tables.jpg" width="300"/>
+<img src="screenshots/other_ui.jpg" width="300"/>
+<img src="screenshots/other_ui2.jpg" width="300"/>
 
 ## Contributors
 - Elias Svoba <elias@infixustech.co.zw>
@@ -27,7 +29,7 @@
 
 ## License & Copyright
 
-Copyright (c) 2020 Elias Svoba, Infixus Tech
+Copyright (c) 2020 Infixus Tech
 
 Me, the author of the project, allow you to check the code as a reference.
 Beside the above, the following license applies and this license notice 

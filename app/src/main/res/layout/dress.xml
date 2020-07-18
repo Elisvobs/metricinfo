@@ -35,7 +35,8 @@
                     android:layout_weight="1"
                     android:text="@string/british"
                     android:textAlignment="center"
-                    android:textColor="#000"/>
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -130,7 +131,8 @@
                     android:layout_weight="1"
                     android:text="@string/continental"
                     android:textAlignment="center"
-                    android:textColor="#000"/>
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -226,7 +228,8 @@
                     android:layout_weight="1"
                     android:text="@string/international"
                     android:textAlignment="center"
-                    android:textColor="#000"/>
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:layout_width="match_parent"

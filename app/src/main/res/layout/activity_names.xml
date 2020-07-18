@@ -23,7 +23,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        table:tableView_columnCount="4"
-        app:tableView_headerElevation="4"/>
+        app:tableView_headerElevation="4"
+        table:tableView_columnCount="4"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

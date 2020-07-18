@@ -40,19 +40,19 @@
     <string name="app_info">About Metric Info</string>
     <string name="developer">About The Developer</string>
     <string name="dis_content">The user acknowledge that the use of this service is made at their own discretion and risk,
-        thus holding IT harmless of all liability. IT neither holds or is responsible for the content to which
-        the user has access through this service. IT may not be held liable for any failures in the display of content, Internet connections, viruses, etc. that
+        thus holding Infixus Tech harmless of all liability. Infixus Tech neither holds or is responsible for the content to which
+        the user has access through this service. Infixus Tech may not be held liable for any failures in the display of content, Internet connections, viruses, etc. that
         may pose a threat to your device.</string>
     <string name="about_content">Metric Info is an application for Android devices that assist users to compute metric
-        or imperial conversions by means of using conversion tables or the calculator function of the app.
+        or imperial conversions by means of using conversion tables or the calculator functions of the app.
         </string>
-    <string name="cred_content">We would like to thank our partners at Media for logo &amp; app icons design.</string>
+<!--    <string name="cred_content">Many thanks to our partners at Adorn Media for logo &amp; app icons design.</string>-->
     <string name="privacy_content">We collect certain personal information that you voluntarily provide to us. For example,
         we maybe collect your name and/or and email address when you contact us by email. When you interact with the app,
         we collect information such as the language you use on the application, your device type and version, browsing
         activity, location and other technical data relating to your device. This information is only used to assist us in
         providing effective service.</string>
-    <string name="dev_content">If you have comments, queries or just want to say hello, give us a buzz on:</string>
+    <string name="dev_content">If you have comments, queries or just want to say hello, give us a buzz on your preferred platform:</string>
     <string name="a0">A0</string>
     <string name="a1">A1</string>
     <string name="a2">A2</string>
@@ -256,6 +256,7 @@
     <string name="exp_6">⁶</string>
     <string name="exp_9">⁹</string>
     <string name="clothe_info">B = British C = Continental I = International</string>
+    <string name="alert">Alert</string>
     <!--    <string name="exp_105">10⁵</string>-->
     <!--    <string name="exp_1">¹</string>-->
 </resources>
