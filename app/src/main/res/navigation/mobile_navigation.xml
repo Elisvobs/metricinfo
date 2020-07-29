@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.infixustech.metricinfo.fragment.home.Converter"
+        android:name="com.infixus.metricinfo.fragment.home.Converter"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_convert" />
 
     <fragment
         android:id="@+id/navigation_tables"
-        android:name="com.infixustech.metricinfo.fragment.tables.ConversionTables"
+        android:name="com.infixus.metricinfo.fragment.tables.ConversionTables"
         android:label="@string/title_tables"
         tools:layout="@layout/fragment_tables" />
 
     <fragment
         android:id="@+id/navigation_info"
-        android:name="com.infixustech.metricinfo.fragment.info.ExtraInfo"
+        android:name="com.infixus.metricinfo.fragment.info.ExtraInfo"
         android:label="@string/title_info"
         tools:layout="@layout/fragment_info" />
 </navigation>

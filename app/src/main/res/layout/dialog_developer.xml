@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="8dp"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="2dp"
+    tools:context=".ui.About">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:background="@drawable/side_nav_bar"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:padding="16dp"
+                android:text="@string/developer"
+                android:textStyle="bold"
+                android:textAlignment="viewStart"
+                android:textColor="#FFFFFF"
+                android:textAppearance="?android:textAppearanceLarge"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:padding="16dp"
+                    android:text="@string/dev_content"
+                    android:textColor="#FFFFFF"
+                    android:textAlignment="textStart"
+                    android:textAppearance="?android:textAppearanceMedium"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:layout_gravity="center"
+                    android:padding="16dp"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/chat_whatsapp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="chatIntent"
+                        android:src="@drawable/whatsapp"
+                        android:contentDescription="@string/whatsapp" />
+
+                    <ImageView
+                        android:id="@+id/chat_instagram"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="chatIntent"
+                        android:src="@drawable/instagram"
+                        android:contentDescription="@string/instagram" />
+
+                    <ImageView
+                        android:id="@+id/chat_facebook"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="chatIntent"
+                        android:src="@drawable/facebook"
+                        android:contentDescription="@string/facebook" />
+
+                    <ImageView
+                        android:id="@+id/chat_phone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="chatIntent"
+                        android:src="@drawable/call"
+                        android:contentDescription="@string/phone" />
+
+                    <ImageView
+                        android:id="@+id/chat_email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="chatIntent"
+                        android:src="@drawable/email"
+                        android:contentDescription="@string/email" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

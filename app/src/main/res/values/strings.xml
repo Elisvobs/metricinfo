@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Metric Converter</string>
     <string name="title_home">Home</string>
     <string name="title_tables">Conversion Tables</string>
@@ -38,7 +38,7 @@
     <string name="disclaimer">Disclaimer</string>
     <string name="credits">Credits</string>
     <string name="app_info">About Metric Info</string>
-    <string name="developer">About The Developer</string>
+    <string name="developer">The Developer</string>
     <string name="dis_content">The user acknowledge that the use of this service is made at their own discretion and risk,
         thus holding Infixus Tech harmless of all liability. Infixus Tech neither holds or is responsible for the content to which
         the user has access through this service. Infixus Tech may not be held liable for any failures in the display of content, Internet connections, viruses, etc. that
@@ -46,7 +46,50 @@
     <string name="about_content">Metric Info is an application for Android devices that assist users to compute metric
         or imperial conversions by means of using conversion tables or the calculator functions of the app.
         </string>
-<!--    <string name="cred_content">Many thanks to our partners at Adorn Media for logo &amp; app icons design.</string>-->
+    <string name="sla" tools:ignore="TypographyOther">"END-USER LICENSE AGREEMENT FOR METRIC CONVERTER APP
+        \nIMPORTANT PLEASE READ THE TERMS AND CONDITIONS OF THIS LICENSE AGREEMENT CAREFULLY
+        \nInfixus\' End-User License Agreement ("EULA") is a legal agreement between you (either an individual or a single entity) and Infixus.
+        \nInfixus\' software product identified above which may include associated software components, media, printed materials and "online" or electronic document are referred as "SOFTWARE PRODUCT".
+        \nBy installing, copying or otherwise using the SOFTWARE PRODUCT, you agree to be bound by the terms of this EULA. This license agreement represents the entire agreement concerning the program between you and Infixus, (referred to as "LICENSE"), and it supersedes any prior proposal, representation, or understanding between parties. If you do not agree to the terms of this EULA do uninstall or do not use the SOFTWARE PRODUCT.
+        \nThe SOFTWARE PRODUCT is protected by copyright laws and international copyright treaties, as well as other intellectual property laws and treaties.
+        \n1. GRANT OF LICENSE
+        \nThe SOFTWARE PRODUCT is licensed as follows:
+        \n(a)Installation and Use
+        \nInfixus grants you the right to install and use copies of the SOFTWARE PRODUCT on your mobile running a validly licensed copy of the operating system for which the SOFTWARE PRODUCT was designed e.g. Android
+        \n2. DESCRIPTION OF OTHER RIGHTS AND LIMITATIONS
+        \n(a) Maintenance of Copyright Notices
+        \nYou must not remove or alter any copyright notices on any and all copies of the SOFTWARE PRODUCT.
+        \n(b) Prohibition on Reverse Engineering, Decompilation, and Disassembly.
+        \nYou may not reverse engineer, decompile, or disassemble the SOFTWARE PRODUCT, except and only to the extent that such activity is expressively permitted by applicable law notwithstanding this limitation.
+        \n(c) Rental
+        \nYou may not rent, lease, or lend the SOFTWARE PRODUCT.
+        \n(d) Compliance with Applicable Laws.
+        \nYou must comply with all applicable laws regarding use of the SOFTWARE PRODUCT.
+        \n3. TERMINATION
+        \nWithout prejudice to any other rights, Infixus may terminate this EULA if you fail to comply with the terms and conditions of this EULA. In such event, you must destroy all copies of the SOFTWARE PRODUCT in your possession.
+        \n4. COPYRIGHT
+        \nAll title including but not limited to copyrights, in and to the SOFTWARE PRODUCT and any copies thereof are owned by Infixus or its suppliers.
+        \nAll title and intellectual property rights in and to the content which may be accessed through use of the SOFTWARE PRODUCT is the property of the respective content owner and may be protected by applicable copyright or other intellectual property laws and treaties.
+        \nThis EULA grants you no rights to use such content.
+        \nAll rights not expressly granted are reserved by Infixus.
+        \n5. NO WARRANTIES
+        \nInfixus expressly disclaims any warranty for the SOFTWARE PRODUCT. The SOFTWARE PRODUCT is provided "As Is" without any express or implied warranty of any kind, including but not limited to any warranty of any kind, including but not limited to any warranties of merchantability, noninfingement, or fitness of a particular purpose.
+        \nInfixus makes no warranties respecting any harm that may be caused by the transmission of a computer virus, worm, time bomb, logic bomb, or other such computer program. Infixus further expressly disclaims any warranty or representation to Authorised Users or to any third party.
+        \n6. LIMITATION OF LIABILITY
+        \nIn no event shall Infixus be liable for any damages (including, without limitation, lost profits, business interruption, or lost information) rising out of Authorised Users' use of or inability to use the SOFTWARE PRODUCT, even if Infixus has been advised of the possibility of such damages.
+        \nIn no event will Infixus be liable for loss of data or for indirect, special, incidental, consequential (including lost profit), or other damages based in contract, tort or otherwise.
+        \nInfixus shall have no liability with respect to the content of the SOFTWARE PRODUCT or any part thereof, including but not limited to errors or omissions contained therein, libel, infringements of rights of publicity, privacy, trademark, moral rights or the disclosure of confidential information."</string>
+
+    <string name="pp">"Metric Converter App collects information about you and uses this information to help improve your experience on the app and connect you with services that are relevant to you. This policy describes how your information is collected and used and your choices with respect to your personal information. This policy applies to information we collect or use on sites and applications owned or controlled by Metric Converter App (Infixus). Metric Converter App is not for the privacy policies or practices of ad networks and other websites, third parties with whom we work to provide you personalised services, or those who access your information on our sites or applications.
+        \nInfo we collect
+        \nWe collect information about you when you use Metric Converter App. We collect information directly from you such as your contact information and profile information. We also collect information about you automatically such as how you use and interact with Metric Converter App, your demographic information and information about your computer or mobile device. We may collect or use information about you from publicly available websites whether or not you have an account with us. You will have the opportunity to claim, change the visibility setting of, or remove the information. However, we cannot guarantee that we will not later collect from public-available websites other information that pertains to you. We may also acquire information about you from third parties to further personalise and enhance your experience.
+        \nHow we use Information
+        \nWe use the information we collect about you to deliver the products and services we offer, respond to you and operate and improve our sites and application. Our services include showing you personalised content and advertising on Metric Converter App or other sites which we have a business relationship. We may use your information to contact you about Metric Converter App updates, conduct surveys or to provide informational and service-related communications, including important security updates. Information you share in public areas of Metric Converter App or make visible in the resume and profile database may be accessed, used and stored by others around the world. We strive to provide a safe environment by attempting to limit access to our database to legitimate users, but we cannot guarantee that unauthorised parties will not gain access. We also cannot control how authorised users store or transfer information you give to us, so you should not post sensitive information to Metric Converter App.\n
+        \nHow we share Information
+        \nWe do not share contact information with third parties for their direct marketing purposes without your consent. We share your information with third parties who help us to deliver our products and services to you. These third parties may not use your information for any other purpose. We may share information with third parties if you consent. For example, we may use your information to contact you about products or services available from Metric Converter App. If you opt in, we may supply your information to third parties who may contact you about their products and services. You may change your contact preferences by adjusting your notification settings. We may disclose to third parties information that we have collected from other websites. We disclose information where legally required. We may disclose and transfer information to a third party who acquires any or all of Infixus' business units.
+        \nHow we store Information
+        \nWe store your information to make your interaction with Metric Converter App more efficient, practical, and relevant. You may access, review, correct, update, or delete your profile anytime by signing in to your account. If you do not have an account, please contact us. When you delete your personal information, we will retain logs and non-personal information about your activity on Metric Converter App. We will also retain an archival copy of your information which is not accessible by you or third parties on the internet. If your personal information was previously accessed by others using Metric Converter App, we are unable to delete the information from their systems. Metric Converter App is not intended for children under 13 years of age. We use cookies to help personalise and maximise your experience on Metric Converter App. You may turn off cookies, however this will adversely affect your use of Metric Converter App."
+    </string>
     <string name="privacy_content">We collect certain personal information that you voluntarily provide to us. For example,
         we maybe collect your name and/or and email address when you contact us by email. When you interact with the app,
         we collect information such as the language you use on the application, your device type and version, browsing
@@ -257,6 +300,14 @@
     <string name="exp_9">⁹</string>
     <string name="clothe_info">B = British C = Continental I = International</string>
     <string name="alert">Alert</string>
+    <string name="eula">License Agreement</string>
+    <string name="policy">Privacy Policy</string>
+    <string name="none" />
+    <string name="cancel">Cancel</string>
+    <string name="refuse">Decline</string>
+    <string name="accept">Accept</string>
+    <string name="license">Software License Agreement</string>
+    <string name="ok">Ok</string>
     <!--    <string name="exp_105">10⁵</string>-->
     <!--    <string name="exp_1">¹</string>-->
 </resources>
